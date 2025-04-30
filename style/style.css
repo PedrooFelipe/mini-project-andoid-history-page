@@ -4,6 +4,27 @@
     border: 0;
     box-sizing: border-box;
 }
+h2, h3{
+    font-family: idroid, sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(41, 216, 41, 0.438), white);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+mark{
+    font-family: Bebas Neue, cursive;
+    background-color: rgba(41, 216, 41, 0.438);
+    border-radius: 2px;
+    padding: 2px;
+}
 .fundoDaPagina{
     background-color: #1F3757;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,4 +55,22 @@
 }
 ul li:hover{
     border-bottom: 1px solid black;
+}
+main{
+    margin: 0 auto;
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+}
+h2, h3, main p{
+    text-align: justify;
+    padding: 10px;
+}
+.bgdroid{
+    text-align: center;
+}
+.video{
+    background-color: rgb(34, 92, 12);
+    text-align: center;
+    padding: 10px;
 }
